@@ -4,10 +4,14 @@ function Navbar() {
   return (
       <nav className={styles.navbar}>
         <ul className={styles.navbar__list}>
-          <li className={styles.navbar__list_item}>Vision</li>
-          <li className={styles.navbar__list_item}>People</li>
-          <li className={styles.navbar__list_item}>Sponsors</li>
-          <li className={styles.navbar__list_item}>Help us</li>
+          <li className={styles.navbar__list_item}><a className={styles.navbar__list_link}
+                                                      href='#vision'>Vision</a></li>
+          <li className={styles.navbar__list_item}><a className={styles.navbar__list_link}
+                                                      href='#ppl'>People</a></li>
+          <li className={styles.navbar__list_item}><a className={styles.navbar__list_link}
+                                                      href='#sponsors'>Sponsors</a></li>
+          <li className={styles.navbar__list_item}><a className={styles.navbar__list_link}
+                                                      href='#helpus'>Help us</a></li>
         </ul>
       </nav>
   )

@@ -21,18 +21,20 @@ html {
   background-repeat: no-repeat;
   //width: 100vw;
   //height: 20vh;
+  position: sticky;
+  top: 0;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  z-index: 10;
 
   &__title {
     font-size: 2.8rem;
     padding: .5em .25em;
     font-weight: bold;
     text-shadow: 2px 2px 3px #999;
-
-
   }
+
   &__paragraph {
     font-size: 2.2rem;
     padding: .5em .25em;
@@ -40,12 +42,14 @@ html {
 }
 
 .navbar {
-  background-color: rgb(204, 204, 204,0.2);
+  background-color: rgb(204, 204, 204, 0.2);
   width: 100vw;
+  position: relative;
+  //top: 0;
   //height: 5vh;
   align-items: center;
   justify-content: center;
-
+  z-index: 1;
 
   &__list {
     display: flex;
@@ -62,15 +66,21 @@ html {
       //flex-direction: row;
       //text-decoration: none;
     }
+
+    &_link {
+      text-decoration: none;
+      color: #000;
+    }
   }
 }
 
 .article {
   position: relative;
   display: flex;
+  flex-direction: column;
   //margin: 1em 0;
-  padding: 1em 0 3em 0;
-  //height: 65vh;
+  padding: .5em 0 3em 0;
+  //height: 75vh;
   //bottom: 0;
   background-color: #bbb;
   //align-items: center;
@@ -86,7 +96,6 @@ html {
     align-items: center;
     width: 100vw;
     padding: .5em;
-
   }
 
   &__title {
