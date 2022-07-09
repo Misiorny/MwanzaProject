@@ -17,10 +17,7 @@ html {
   background-color: #ddd;
   background-image: url('../../src/images/layout/mwanza.png');
   background-size: cover;
-  //background-position: 100px 100px;
   background-repeat: no-repeat;
-  //width: 100vw;
-  //height: 20vh;
   position: sticky;
   top: 0;
   align-items: center;
@@ -42,11 +39,9 @@ html {
 }
 
 .navbar {
-  background-color: rgb(204, 204, 204, 0.2);
+  background-color: rgb(204, 204, 204, 0.6);
   width: 100vw;
   position: relative;
-  //top: 0;
-  //height: 5vh;
   align-items: center;
   justify-content: center;
   z-index: 1;
@@ -54,8 +49,6 @@ html {
   &__list {
     display: flex;
     flex-direction: row;
-    //font-size: 1.2rem;
-    //font-weight: bold;
     padding: .5em .25em;
     list-style: none;
     justify-content: space-evenly;
@@ -63,8 +56,6 @@ html {
     &_item {
       font-size: 1.2rem;
       font-weight: bold;
-      //flex-direction: row;
-      //text-decoration: none;
     }
 
     &_link {
@@ -78,19 +69,11 @@ html {
   position: relative;
   display: flex;
   flex-direction: column;
-  //margin: 1em 0;
   padding: .5em 0 3em 0;
-  //height: 75vh;
-  //bottom: 0;
   background-color: #bbb;
-  //align-items: center;
-  //justify-content: space-evenly;
 }
 
 .section {
-  //display: flex;
-  //flex-direction: row;
-  //flex-wrap: nowrap;
   &__img {
     justify-content: center;
     align-items: center;
@@ -100,23 +83,75 @@ html {
 
   &__title {
     text-align: center;
-    //padding: .25em;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
   }
 
   &__text {
-    //text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     padding: .5em;
     letter-spacing: 2px;
   }
+}
 
-  &_first {
-    //width: 40%;
+.people {
+  display: flex;
+  flex-direction: column;
+
+  &__content {
+    display: flex;
+    align-items: center;
+
+    &_name {
+      display: block;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      font-size: 1.8rem;
+    }
+
+    &_text {
+      display: block;
+      width: 100vw;
+      font-size: 1.2rem;
+      padding: .5em;
+      letter-spacing: 2px;
+    }
+
+    &_img {
+      justify-content: center;
+      align-items: center;
+      width: 50vw;
+      padding: .5em;
+    }
   }
+}
 
-  &_second {
-    //flex-wrap: wrap;
+.sponsors {
+  &__content {
+    &_img {
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      padding: .5em;
+    }
+
+    &_name {
+      display: block;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      font-size: 1.8rem;
+    }
+
+    &_text {
+      display: block;
+      width: 100vw;
+      font-size: 1.2rem;
+      padding: .5em;
+      letter-spacing: 2px;
+    }
   }
 }
 
@@ -126,7 +161,6 @@ html {
   bottom: 0;
   background-color: #aaa;
   width: 100%;
-  height: 10vw;
   align-items: center;
   justify-content: space-evenly;
 
