@@ -1,11 +1,13 @@
 import styles from "../../style/styles.module.scss";
 import mwanza from "../../images/layout/mwanza.png";
+import Payments from "./Payments";
 
 function Helpus() {
   return (
       <section className={styles.section}>
         <h2 className={styles.section__title}>Help us</h2>
-        <img className={styles.section__img} src={mwanza}
+        <img className={styles.section__img}
+             src={mwanza}
              alt='Lake Victoria view in Mwanza'/>
         <p className={styles.section__text}>Mwanza is located on the banks of Lake Victoria, the largest lake in Africa.
                                             It is Tanzania’s second largest city with a busy port and is a major
@@ -31,9 +33,7 @@ function Helpus() {
                                             there is one location in Mwanza where locals, expats and tourists do go to
                                             swim.
         </p>
-        <h3>Possible donations</h3>
-        <p>PayPal</p>
-        <p>Bank Transfer</p>
+        <Payments/>
       </section>
   )
 }

@@ -51,18 +51,18 @@ html {
     flex-direction: row;
     list-style: none;
     justify-content: space-evenly;
+  }
 
-    &_item {
-      font-size: 1.2rem;
-      font-weight: bold;
-      padding: .5em .5em;
-    }
+  &__link {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+  }
 
-    &_link {
-      text-decoration: none;
-      color: #000;
-      cursor: pointer;
-    }
+  &__item {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: .5em .5em;
   }
 }
 
@@ -75,6 +75,11 @@ html {
 }
 
 .section {
+  &__title {
+    text-align: center;
+    font-size: 2.4rem;
+  }
+
   &__img {
     justify-content: center;
     align-items: center;
@@ -82,15 +87,20 @@ html {
     padding: .5em;
   }
 
-  &__title {
-    text-align: center;
-    font-size: 2.4rem;
-  }
-
   &__text {
     font-size: 1.8rem;
     padding: .5em;
     letter-spacing: 2px;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: .5em;
+  }
+
+  &__icon {
+    width: 2.4em;
   }
 }
 

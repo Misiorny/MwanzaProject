@@ -1,8 +1,8 @@
 import styles from '../../style/styles.module.scss';
-import Vision from "./Vision";
-import People from "./People";
-import Sponsors from "./Sponsors";
-import Helpus from "./Helpus";
+import Vision from "../Vision/Vision";
+import People from "../People/People";
+import Sponsors from "../Sponsors/Sponsors";
+import Helpus from "../Help/Helpus";
 
 
 function Article() {
