@@ -5,7 +5,7 @@ function Helpus() {
   return (
       <section className={styles.section}>
         <h2 className={styles.section__title}>Help us</h2>
-        <img src={mwanza}
+        <img className={styles.section__img} src={mwanza}
              alt='Lake Victoria view in Mwanza'/>
         <p className={styles.section__text}>Mwanza is located on the banks of Lake Victoria, the largest lake in Africa.
                                             It is Tanzania’s second largest city with a busy port and is a major
