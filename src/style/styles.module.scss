@@ -22,7 +22,7 @@ html {
   top: 0;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  //overflow: hidden;
   z-index: 10;
 
   &__title {
@@ -39,7 +39,7 @@ html {
 }
 
 .navbar {
-  background-color: rgb(204, 204, 204, 0.6);
+  background-color: rgb(204, 204, 204, 0.2);
   width: 100vw;
   position: relative;
   align-items: center;
@@ -49,18 +49,20 @@ html {
   &__list {
     display: flex;
     flex-direction: row;
-    padding: .5em .25em;
+
     list-style: none;
     justify-content: space-evenly;
 
     &_item {
       font-size: 1.2rem;
       font-weight: bold;
+      padding: .5em .5em;
     }
 
     &_link {
       text-decoration: none;
       color: #000;
+      cursor: pointer;
     }
   }
 }

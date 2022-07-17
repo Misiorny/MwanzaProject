@@ -22,7 +22,6 @@ html {
   top: 0;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
   z-index: 10;
 }
 .header__title {
@@ -37,7 +36,7 @@ html {
 }
 
 .navbar {
-  background-color: rgba(204, 204, 204, 0.6);
+  background-color: rgba(204, 204, 204, 0.2);
   width: 100vw;
   position: relative;
   align-items: center;
@@ -47,17 +46,18 @@ html {
 .navbar__list {
   display: flex;
   flex-direction: row;
-  padding: 0.5em 0.25em;
   list-style: none;
   justify-content: space-evenly;
 }
 .navbar__list_item {
   font-size: 1.2rem;
   font-weight: bold;
+  padding: 0.5em 0.5em;
 }
 .navbar__list_link {
   text-decoration: none;
   color: #000;
+  cursor: pointer;
 }
 
 .article {
