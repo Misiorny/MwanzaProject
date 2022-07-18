@@ -4,7 +4,7 @@ import christine from '../images/beneficients/christine.png'
 import godfrey from '../images/beneficients/godfrey.png'
 import kurwa from '../images/beneficients/kurwa.png'
 import paul from '../images/beneficients/paul.png'
-import revoandbenja from '../images/beneficients/revoandbenja.jpg'
+import benja from '../images/beneficients/benja.png'
 import sara from '../images/beneficients/sara.png'
 import vicky from '../images/beneficients/vicky.png'
 import yohanna from '../images/beneficients/yohana.png'
@@ -17,7 +17,7 @@ const persons = [
   {id: 4, name: 'Godfrey', photo: godfrey, alt:'photography of person', text: 'Godi has been studying Electrical Engineering and is really enjoying the course. His friends say he is a good cook and responsible in completing chores to help around the children’s home.'},
   {id: 5, name: 'Kurwa', photo: kurwa, alt:'photography of person', text: 'Kurwa works as a mechanic at a garage in Mwanza. He has a passion for mechanics and over the years of working at the garage he has acquired important skills which will be of help to this project. He hopes to open his own garage at the site and be able offer employment for those less fortunate. He likes driving cars and taking tourists to see local sights.'},
   {id: 6, name: 'Paul', photo: paul, alt:'photography of person', text: 'Paul works at The Royal Hospital, a specialist hospital in Mwanza, as a pharmaceutical technician. He is also a keen a photographer and graphics designer. He has previously worked in a school as a teaching assistant and was recently awarded for his contributions in event planning in Mwanza. He has a dream to open up his own pharmacy and sell pharmaceutical products as a way to reach vulnerable communities.'},
-  {id: 7, name: 'Revo and Benja', photo: revoandbenja, alt:'photography of person', text: 'Benja & Revo are both currently completing Tourism courses at university. Part of their studies has included field work in National parks and climbing Mt Kilimanjaro. Benja hopes to later establish his own Tour Company that can operate out of the lodge.'},
+  {id: 7, name: 'Benja', photo: benja, alt:'photography of person', text: 'Benja is currently completing Tourism courses at university. Part of his studies has included field work in National parks and climbing Mt Kilimanjaro. Benja hopes to later establish his own Tour Company that can operate out of the lodge.'},
   {id: 8, name: 'Sara', photo: sara, alt:'photography of person', text: 'Sara is currently pursuing a Diploma in Business Administration and will able to help with  budgeting, business planning and managing  resources.'},
   {id: 9, name: 'Vicky', photo: vicky, alt:'photography of person', text: 'Nancy, sometimes called Vicky, is currently studying a Bachelor of Education in Early Childhood Education at the University of Dar es Salaam. Nancy has been learning about entrepreneurship through a series of seminars. She has learnt how to make Batik prints, which are popular with tourists. Nancy hopes to help sustain the project through her batik skills.'},
   {id: 10, name: 'Yohanna', photo: yohanna, alt:'photography of person', text: 'Yohanna has just begun a course in accountancy in Arusha. He will be able to help budget finances and manage money.'},

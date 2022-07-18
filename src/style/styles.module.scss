@@ -14,38 +14,36 @@ html {
 .header {
   display: flex;
   flex-direction: column;
-  background-color: #ddd;
+  //background-color: #ddd;
   background-image: url('../../src/images/layout/mwanza.png');
   background-size: cover;
-  background-repeat: no-repeat;
+  //background-repeat: no-repeat;
+  background-position: center;
   position: sticky;
   top: 0;
   align-items: center;
-  justify-content: center;
-  //overflow: hidden;
+  //justify-content: center;
   z-index: 10;
 
   &__title {
     font-size: 2.8rem;
-    padding: .5em .25em;
+    padding: 1em .5em;
     font-weight: bold;
     text-shadow: 2px 2px 3px #999;
   }
 
   &__paragraph {
     font-size: 2.2rem;
-    padding: .5em .25em;
+    padding: 1em .5em;
   }
 }
 
 .navbar {
   background-color: rgb(204, 204, 204, 0.2);
   width: 100vw;
-  position: relative;
   align-items: center;
   justify-content: center;
-  z-index: 1;
-
+  //z-index: 1;
   &__list {
     display: flex;
     flex-direction: row;
@@ -110,34 +108,38 @@ html {
 
   &__content {
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-
-    &_name {
-      display: block;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-      width: 100vw;
-      font-size: 1.8rem;
-    }
-
-    &_text {
-      display: block;
-      width: 100vw;
-      font-size: 1.2rem;
-      padding: .5em;
-      letter-spacing: 2px;
-    }
-
-    &_img {
-      position: relative;
-      justify-content: center;
-      align-items: center;
-      width: 50vw;
-      padding: .5em;
-    }
   }
+
+  &__name {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    font-size: 1.8rem;
+  }
+
+  &__text {
+    display: block;
+    width: 100vw;
+    left: 0;
+    font-size: 1.2rem;
+    padding: .5em;
+    letter-spacing: 2px;
+  }
+
+  &__img {
+    position: relative;
+    justify-content: center;
+
+    align-items: center;
+    width: 50vw;
+    padding: .5em;
+  }
+
 }
 
 .sponsors {
