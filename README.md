@@ -12,7 +12,7 @@ Here is project of web page for help orphans from Mwanza (Tanzania). Made as tra
 
 ### Other
 
-- [React Router](https://reactrouter.com)<img alt="react-router logo" src="<img alt="react-router logo" src="(https://seeklogo.com/vector-logo/273846/react-router)" height="30">" - not implemented yet.
+- [React Router](https://reactrouter.com) - not implemented yet.
 
 
 ### Styling
