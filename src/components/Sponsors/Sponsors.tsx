@@ -6,7 +6,7 @@ function Sponsors() {
   return (
       <div className={styles.section}>
         <h2 className={styles.section__title}>Sponsors</h2>
-        {donators.map((e) => <Person name={e.name}
+        {donators.map((e) => <Person key={e.id} name={e.name}
                                      photo={e.photo}
                                      alt={e.alt}
                                      text={e.text}/>)}

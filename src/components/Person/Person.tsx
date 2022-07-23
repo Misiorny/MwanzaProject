@@ -8,6 +8,7 @@ function Person(props: { name: string, photo: string , alt: string, text: string
              src={props.photo}
              alt={props.alt}/>
         <p className={styles.people__text}>{props.text}</p>
+
       </section>
   )
 }
