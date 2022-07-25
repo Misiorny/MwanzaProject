@@ -13,7 +13,7 @@ Here is project of web page for help orphans from Mwanza (Tanzania). Made as tra
 ### Other
 
 - [Vite](https://vitejs.dev/)
-- [React Router](https://reactrouter.com) - not implemented yet.
+- [React Router](https://reactrouter.com) 
 
 
 ### Styling
