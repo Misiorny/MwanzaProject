@@ -14,12 +14,14 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
+  background-color: #c1cde1;
+  color: #04102d;
 }
 
 h1, h2, h3 {
   font-family: "Dancing Script", cursive;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 3px #666;
+  text-shadow: 2px 2px 3px #c1cde1;
   font-weight: bold;
 }
 
@@ -34,6 +36,7 @@ h1, h2, h3 {
   top: 0;
   align-items: center;
   justify-content: center;
+  z-index: 10;
 }
 .header__title {
   font-size: 2.6rem;
@@ -51,6 +54,7 @@ h1, h2, h3 {
   justify-content: center;
   z-index: 100;
   padding: 0.5em 0;
+  background-color: #071f56;
 }
 .navbar__list {
   display: flex;
@@ -60,10 +64,10 @@ h1, h2, h3 {
 }
 .navbar__link {
   text-decoration: none;
-  color: #000;
   cursor: pointer;
   padding: 1em 0.5em;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  color: #c1cde1;
 }
 .navbar__item {
   font-size: 1.2rem;
@@ -74,11 +78,13 @@ h1, h2, h3 {
 .article {
   display: flex;
   flex-direction: column;
+  padding: 0 0 3em;
 }
 
 .section__title {
   text-align: center;
   font-size: 2.2rem;
+  padding: 1em 0 0.5em;
 }
 .section__img {
   justify-content: center;
@@ -90,6 +96,7 @@ h1, h2, h3 {
   font-size: 1.8rem;
   padding: 0.5em;
   letter-spacing: 2px;
+  margin: 0.5em;
 }
 .section__link {
   text-decoration: none;
@@ -104,11 +111,46 @@ h1, h2, h3 {
   display: flex;
   flex-direction: column;
 }
+.people__card {
+  perspective: 600px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #4187da;
+  border-radius: 8px;
+  margin: 0.25em;
+  overflow: hidden;
+  background-color: #4187da;
+  position: relative;
+}
+.people__card:nth-child(odd) {
+  flex-direction: row-reverse;
+  background-color: #a4b3d2;
+}
+.people__foto {
+  display: flex;
+}
 .people__content {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
+}
+.people__content_upside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  width: 50%;
+}
+.people__content_downside {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .people__name {
   display: block;
@@ -120,24 +162,28 @@ h1, h2, h3 {
 }
 .people__text {
   display: block;
-  width: 100vw;
-  left: 0;
+  width: 100%;
   font-size: 1.2rem;
   padding: 0.5em;
   letter-spacing: 2px;
 }
+.people__text_short {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.5em;
+  letter-spacing: 1px;
+}
 .people__img {
-  position: relative;
   justify-content: center;
   align-items: center;
-  width: 50vw;
-  padding: 0.5em;
+  width: 100%;
 }
 
 .sponsors__content_img {
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 50%;
   padding: 0.5em;
 }
 
@@ -145,14 +191,16 @@ h1, h2, h3 {
   position: fixed;
   display: flex;
   bottom: 0;
-  background-color: #aaa;
+  background-color: #071f56;
   width: 100%;
   align-items: center;
   justify-content: space-evenly;
+  font-size: 1.2rem;
 }
 .footer__paragraph {
   padding: 0.5em 0.25em;
   text-align: center;
+  color: #c1cde1;
 }
 .footer_bold {
   font-weight: bold;
@@ -160,6 +208,7 @@ h1, h2, h3 {
 .footer_link {
   padding: 0.5em 0.25em;
   cursor: pointer;
+  color: #c1cde1;
 }
 
 /*# sourceMappingURL=styles.module.css.map */

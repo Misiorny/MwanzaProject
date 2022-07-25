@@ -25,6 +25,7 @@ function People() {
                                     name={e.name}
                                     photo={e.photo}
                                     alt={e.alt}
+                                    short={e.short}
                                     text={e.text}/>)}
       </div>
   )

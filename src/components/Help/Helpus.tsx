@@ -1,6 +1,6 @@
 import styles from "../../style/styles.module.scss";
 import mwanza from "../../images/layout/mwanza.png";
-import Payments from "./Payments";
+import Payments from "../Payments/Payments";
 
 function Helpus() {
   return (
